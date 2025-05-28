@@ -1,0 +1,134 @@
+/* General Footer Styling */
+.footer {
+    background-color: #282828; /* Dark background */
+    color: #ffffff; /* White text color */
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.fotter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Responsive adjustment */
+    gap: 20px;
+}
+
+/* Left Section Styling */
+.fotter-content-left {
+    flex: 1;
+    max-width: 300px;
+}
+
+.fotter-content-left img {
+    width: 150px; /* Logo size */
+    margin-bottom: 20px;
+}
+
+.fotter-content-left p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Social Icons */
+.footer-social-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer-social-icon img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Center Section Styling */
+.fotter-content-center {
+    flex: 1;
+    max-width: 200px;
+}
+
+.fotter-content-center h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff6347; /* Tomato color for heading */
+}
+
+.fotter-content-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fotter-content-center ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.fotter-content-center ul li:hover {
+    color: #ff6347; /* Highlight text on hover */
+}
+
+/* Right Section Styling */
+.fotter-content-right {
+    flex: 1;
+    max-width: 200px;
+}
+
+.fotter-content-right h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff6347; /* Tomato color for heading */
+}
+
+.fotter-content-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fotter-content-right ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.fotter-content-right ul li:hover {
+    color: #ff6347; /* Highlight text on hover */
+}
+
+/* Divider Line */
+hr {
+    border: none;
+    border-top: 1px solid #444444;
+    margin: 20px 0;
+}
+
+/* Copyright Section */
+.fotter-copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #cccccc; /* Light grey for copyright text */
+}
+
+/* Responsive Design */
+@media (max-width: 750px) {
+    .fotter-content {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .fotter-copyright{
+        text-align: center;
+    }
+}
+    
+
+  
